@@ -5383,7 +5383,7 @@ Functional Dependency Exercise<o:p></o:p></span></p>
 <p class=Head-Simple align=center style='margin-top:6.0pt;margin-right:0in;
 margin-bottom:6.0pt;margin-left:.25in;text-align:center'><span
 style='font-size:22.0pt;mso-bidi-font-size:12.0pt;line-height:115%;font-family:
-"Calibri","sans-serif"'>from Joe Celko’s <i style='mso-bidi-font-style:normal'>SQL
+"Calibri","sans-serif"'>from Joe Celkoxx's <i style='mso-bidi-font-style:normal'>SQL
 for Smarties<o:p></o:p></i></span></p>
 
 <p class=Head-Simple2>By Bill Rishel</p>
@@ -5391,16 +5391,16 @@ for Smarties<o:p></o:p></i></span></p>
 <p class=thin><o:p>&nbsp;</o:p></p>
 
 <p class=MsoNormal><span style='font-size:14.0pt;mso-bidi-font-size:11.0pt;
-line-height:115%'>In Joe Celko’s book <i style='mso-bidi-font-style:normal'>SQL
+line-height:115%'>In Joe Celko's book <i style='mso-bidi-font-style:normal'>SQL
 for Smarties </i>he shows how to determine a minimal and sufficient database
 schema by analysis of <i style='mso-bidi-font-style:normal'>functional
 dependencies</i>. To illustrate the method, he presents as an example ten
-functional dependencies (FD’s) that must be satisfied by a database. Using the
-ten FD’s the exercise is to determine <i style='mso-bidi-font-style:normal'>minimal</i>
-subsets of the ten FD’s from which the remaining FD’s can be derived.<o:p></o:p></span></p>
+functional dependencies (FD's) that must be satisfied by a database. Using the
+ten FD's the exercise is to determine <i style='mso-bidi-font-style:normal'>minimal</i>
+subsets of the ten FD's from which the remaining FD's can be derived.<o:p></o:p></span></p>
 
 <p class=MsoNormal><span style='font-size:14.0pt;mso-bidi-font-size:11.0pt;
-line-height:115%'>Celko presents five subsets of the ten FD’s as solutions.
+line-height:115%'>Celko presents five subsets of the ten FD's as solutions.
 This article shows, however, that four of his five solutions are incorrect.<o:p></o:p></span></p>
 
 <p class=Head-Simple2>Functional Dependencies</p>
@@ -5587,14 +5587,14 @@ Symbol'><span style='mso-char-type:symbol;mso-symbol-font-family:Symbol'>®</span
 style='mso-bidi-font-family:Optr'> </span>destination</p>
 
 <p class=NormalText>The exercise is to determine minimum subsets of the ten
-FD’s from which all of the remaining FD’s can be derived.</p>
+FD's from which all of the remaining FD's can be derived.</p>
 
 <p class=Head-Simple2 style='margin-top:12.0pt;margin-right:0in;margin-bottom:
 0in;margin-left:0in;margin-bottom:.0001pt'>Deriving Functional Dependencies</p>
 
 <p class=thin><o:p>&nbsp;</o:p></p>
 
-<p class=MyNormal>In the above list of ten FD’s, note that if we know day,
+<p class=MyNormal>In the above list of ten FD's, note that if we know day,
 hour, and gate then we can determine the flight (see FD 9). And if we know the
 flight then we know the destination (see FD 1). In other words, if we know day,
 hour, and gate then we can determine the destination, or:</p>
@@ -5608,7 +5608,7 @@ mso-hansi-theme-font:minor-latin;mso-bidi-font-family:Optr;mso-char-type:symbol;
 mso-symbol-font-family:Symbol'><span style='mso-char-type:symbol;mso-symbol-font-family:
 Symbol'>®</span></span><span style='mso-bidi-font-family:Optr'> </span>destination</p>
 
-<p class=MyNormal>In effect, from the two FD’s:</p>
+<p class=MyNormal>In effect, from the two FD's:</p>
 
 <p class=MyNormal style='margin-left:2.0in'>day, hour, gate <span
 style='font-family:Symbol;mso-ascii-font-family:Calibri;mso-ascii-theme-font:
@@ -5637,8 +5637,8 @@ Symbol'>®</span></span><span style='mso-bidi-font-family:Optr'> </span>destinati
 
 <p class=Head-Simple2>Armstrong's Axioms</p>
 
-<p class=MyNormal>There are specific rules for how FD’s can be combined to give
-other FD’s.<span style='mso-spacerun:yes'>     </span>Known as the <i
+<p class=MyNormal>There are specific rules for how FD's can be combined to give
+other FD's.<span style='mso-spacerun:yes'>     </span>Known as the <i
 style='mso-bidi-font-style:normal'>Armstrong Axioms, </i>these are:</p>
 
 <p class=MyNormal><o:p>&nbsp;</o:p></p>
@@ -5784,11 +5784,11 @@ Y<o:p></o:p></span></p>
 <p class=Head-Simple2>The Exercise</p>
 
 <p class=MsoNormal><span style='font-size:14.0pt;line-height:115%'>The exercise
-that Celko presents is to determine the smallest subsets of the ten FD’s for
-the airline reservation system from which all the remaining FD’s can be derived,
-using Armstrong’s Axioms. If a subset of FD’s can be used to derive all the
-remaining FD’s then the subset is said to <i style='mso-bidi-font-style:normal'>cover</i>
-the complete set of FD’s. If the subset does not itself have a subset that is
+that Celko presents is to determine the smallest subsets of the ten FD's for
+the airline reservation system from which all the remaining FD's can be derived,
+using Armstrong's Axioms. If a subset of FD's can be used to derive all the
+remaining FD's then the subset is said to <i style='mso-bidi-font-style:normal'>cover</i>
+the complete set of FD's. If the subset does not itself have a subset that is
 also a cover, then it is a <i style='mso-bidi-font-style:normal'>minimal cover.</i><o:p></o:p></span></p>
 
 <span style='font-size:14.0pt;line-height:115%;font-family:"Calibri","sans-serif";
@@ -5803,7 +5803,7 @@ page-break-before:always'>
 
 <p class=MsoNormal><span style='font-size:14.0pt;line-height:115%'>To reduce
 unnecessary detail and emphasize overall patterns we will use symbols in
-representing the ten FD’s for the exercise:<o:p></o:p></span></p>
+representing the ten FD's for the exercise:<o:p></o:p></span></p>
 
 <p class=thin><o:p>&nbsp;</o:p></p>
 
@@ -5880,7 +5880,7 @@ representing the ten FD’s for the exercise:<o:p></o:p></span></p>
 </table>
 
 <p class=MsoNormal><span style='font-size:14.0pt;line-height:115%'>Using these
-symbols the ten FD’s for the exercise become:<o:p></o:p></span></p>
+symbols the ten FD's for the exercise become:<o:p></o:p></span></p>
 
 <p class=thin><o:p>&nbsp;</o:p></p>
 
@@ -5994,8 +5994,8 @@ style='mso-char-type:symbol;mso-symbol-font-family:Symbol'>®</span></span><span
 style='mso-bidi-font-family:Optr'> </span>X</p>
 
 <p class=MsoNormal><span style='font-size:14.0pt;line-height:115%'>Of these
-FD’s, the first two cannot be derived from any others, so any minimal subset
-that covers all ten of the FD’s must include 1) and 2) .<o:p></o:p></span></p>
+FD's, the first two cannot be derived from any others, so any minimal subset
+that covers all ten of the FD's must include 1) and 2) .<o:p></o:p></span></p>
 
 <p class=NormalText>To begin, we observe that each FD other than 1) and 2) can
 be derived from the others in the list. For example to derive FD 3) D, F <span
@@ -6081,7 +6081,7 @@ style='mso-char-type:symbol;mso-symbol-font-family:"Euclid Symbol"'>Þ</span></sp
 
 <p class=Head-Simple2>A Helpful Diagram</p>
 
-<p class=NormalText>The derivations of all the FD’s from 3) to 10) are as follows:</p>
+<p class=NormalText>The derivations of all the FD's from 3) to 10) are as follows:</p>
 
 <p class=List1CxSpFirst style='margin-top:0in;margin-right:-.5in;margin-bottom:
 0in;margin-left:2.35in;margin-bottom:.0001pt;mso-add-space:auto;line-height:
@@ -6173,9 +6173,9 @@ Calibri;mso-hansi-theme-font:minor-latin;mso-char-type:symbol;mso-symbol-font-fa
 
 <p class=MsoNormal style='margin-right:-.5in'><span style='font-size:14.0pt;
 line-height:115%'>Now we are in a position to create a diagram of the
-derivation relationships between all of the 10 FD’s. In the diagram below each
+derivation relationships between all of the 10 FD's. In the diagram below each
 numbered circle represents an FD, and the arrows pointing to a numbered circle
-indicate the set of FD’s needed to derived that FD. For example 1) and 6) are
+indicate the set of FD's needed to derived that FD. For example 1) and 6) are
 required to derive 7), as indicated in the diagram. In comparing the list of
 derivations above observe that all of the derivations are represented in the
 diagram.<o:p></o:p></span></p>
@@ -6214,10 +6214,10 @@ src="Blog%20article%20about%20SQL%20for%20Smarties_files/image002.png" v:shapes=
 <p class=MsoNormal><span style='font-size:14.0pt;line-height:115%'>Notice in
 the diagram that there are some “dyads” such as 8) and 9) where an arrows
 points from 8) to 9) and also from 9) to 8). This shows that 8) and 9) are <i
-style='mso-bidi-font-style:normal'>mutually dependent</i> FD’s. <span
+style='mso-bidi-font-style:normal'>mutually dependent</i> FD's. <span
 style='mso-spacerun:yes'> </span>9) cannot be derived without 8), and 8) cannot
-be derived without 9). Therefore any minimal cover of the 10 FD’s must include
-one the two FD’s in a mutually dependent dyad or it will be impossible to
+be derived without 9). Therefore any minimal cover of the 10 FD's must include
+one the two FD's in a mutually dependent dyad or it will be impossible to
 derive either one.<o:p></o:p></span></p>
 
 <p class=MsoNormal><span style='font-size:14.0pt;line-height:115%'>Here are the
@@ -6318,7 +6318,7 @@ six dyads from the diagram:<o:p></o:p></span></p>
 </table>
 
 <p class=MsoNormal style='margin-top:0in;line-height:normal'><span
-style='font-size:14.0pt'>Any cover of the 10 FD’s must include at least one
+style='font-size:14.0pt'>Any cover of the 10 FD's must include at least one
 number from each dyad. <o:p></o:p></span></p>
 
 <p class=MsoNormal style='margin-right:-.4in'><span style='font-size:14.0pt;
@@ -6738,7 +6738,7 @@ minor-latin;mso-hansi-font-family:Calibri;mso-hansi-theme-font:minor-latin;
 mso-bidi-font-family:Optr;mso-char-type:symbol;mso-symbol-font-family:Symbol'><span
 style='mso-char-type:symbol;mso-symbol-font-family:Symbol'>®</span></span><span
 style='mso-bidi-font-family:Optr'> </span>F. As the diagram shows, FD 6) can be
-derived from FD’s 5) and 9) which are already included in Set V. Therefore Set
+derived from FD's 5) and 9) which are already included in Set V. Therefore Set
 V is not a <i style='mso-bidi-font-style:normal'>minimum</i> cover and so is
 not a correct solution.</p>
 
