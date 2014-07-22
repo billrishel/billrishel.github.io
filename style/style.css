@@ -84,6 +84,7 @@ border-color: white;
 }
 
 #main-col {
+color: #010890;
 float: left;
 width: 500px;
 bottom: 0;
@@ -239,5 +240,16 @@ text-align: left;
 margin-left: 48px;
 }
 
- 
+.indent20 {
+margin-left: 20px;
+}
+
+.indent40 {
+margin-left: 40px;
+}
+
+.linehead {
+font-weight: bold;
+font-style: italic;
+}
 
