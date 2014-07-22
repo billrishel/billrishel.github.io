@@ -101,13 +101,12 @@ border-color: white;
 
 #left-col {
 float: left;
-height: 70%;
 width: 350px;
 bottom: 0;
 left: 0;
 border-style: solid;
 border-width: medium;
-border-color: white;
+border-color: cyan;
 }
 
 #right-col {
@@ -250,4 +249,6 @@ margin-left: 40px;
 
 .linehead {
 font-weight: bold;
+font-style: italic;
+}
 
