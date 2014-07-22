@@ -40,7 +40,6 @@ top: 10px;
 left: 40px;
 height: 500px;
 width: 750px;
-
 border-style: solid;
 border-width: medium;
 border-color: white;
@@ -57,6 +56,32 @@ border-style: solid;
 border-width: medium;
 border-color: white;
 }
+
+#sub-header {
+top: 0;
+left: 0;
+margin: 0;
+background: #fff url(../images/masthead_sm.jpg) no-repeat;
+height: 150px;
+width: 450px;
+border-style: solid;
+border-width: medium;
+border-color: white;
+}
+
+#main-col {
+float: left;
+width: 500px;
+bottom: 0;
+left: 0;
+margin-bottom: 60px;
+border-style: solid;
+border-width: medium;
+border-color: white;
+
+}
+
+
 
 #left-col {
 float: left;

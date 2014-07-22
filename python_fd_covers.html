@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="style/style.css" />
+
+    <title>Python Program for Finding Minimum FD Cover Sets</title>
+</head>
+
+<body>
+    
+<div id="wrap">
+
+<div id="sub-header">
+
+</div>  <!-- sub-header -->
+
+<div id="main-col">
+<h1></h1>
+<h2>A Python Program for Finding Minimum Covers</h2>
+<p>
+In the article [functional dependencies] I give a hint how bitmaps can be used to solve functional dependency problems. The program covered here, given a set of FDs, finds the minimum cover sets for the given set.
+</p>
+
+<h3>Usage</h3>
+<p>python find_min_covers.py -f [data_file]</p>
+<p>The data_file is a list of FDs with the format:</p>
+<p style="margin-left: 40px">A, B -> C</p>
+<p>for attributes A, B, and C</p>
+<p>There can be any number of attributes, separated by commas, to the left of the "->", and only one attribute to the right. An attribute can be any string. Case matters.</p>
+<p>A data input file for the find_min_covers program can have any number of such FD definition lines.</p>
+
+<h3>Example</h3>
+
+<h4>Input</h4>
+<p>In this example the data input is Celko_fd_list.dat, with the following contents:</p>
+<p>
+flight -> destination</br>
+
+flight -> hour</br>
+
+day, flight -> gate</br>
+
+day, flight -> pilot</br>
+
+day, hour, pilot -> gate</br>
+
+day, hour, pilot -> flight</br>
+
+day, hour, pilot -> destination</br>
+
+day, hour, gate -> pilot</br>
+
+day, hour, gate -> flight</br>
+
+day, hour, gate -> destination
+</p>
+
+<h4>Output</h4>
+
+<p>
+Processing FD definitions in  Celko_fd_list.dat</br>
+
+</br>
+
+Functional Dependencies</br>
+
+0   flight -> destination</br>
+
+1   flight -> hour</br>
+
+2   flight , day -> gate</br>
+
+3   flight , day -> pilot</br>
+
+4   hour , day , pilot -> gate</br>
+
+5   hour , day , pilot -> flight</br>
+
+6   hour , day , pilot -> destination</br>
+
+7   hour , day , gate -> pilot</br>
+
+8   hour , day , gate -> flight</br>
+
+9   hour , day , gate -> destination</br>
+
+</br>
+
+FD Minimum Covers</br>
+
+</br>
+
+0   flight -> destination</br>
+
+1   flight -> hour</br>
+
+3   flight , day -> pilot</br>
+
+4   hour , day , pilot -> gate</br>
+
+5   hour , day , pilot -> flight</br>
+
+7   hour , day , gate -> pilot</br>
+
+</br>
+
+0   flight -> destination</br>
+
+1   flight -> hour</br>
+
+2   flight , day -> gate</br>
+
+4   hour , day , pilot -> gate</br>
+
+7   hour , day , gate -> pilot</br>
+
+8   hour , day , gate -> flight</br>
+
+</br>
+
+0   flight -> destination</br>
+
+1   flight -> hour</br>
+
+2   flight , day -> gate</br>
+
+3   flight , day -> pilot</br>
+
+5   hour , day , pilot -> flight</br>
+
+8   hour , day , gate -> flight</br>
+
+</br>
+
+0   flight -> destination</br>
+
+1   flight -> hour</br>
+
+3   flight , day -> pilot</br>
+
+4   hour , day , pilot -> gate</br>
+
+8   hour , day , gate -> flight</br>
+
+</br>
+
+0   flight -> destination</br>
+
+1   flight -> hour</br>
+
+2   flight , day -> gate</br>
+
+5   hour , day , pilot -> flight</br>
+
+7   hour , day , gate -> pilot
+</div> <!-- left-col -->
+
+</div> <!-- wrap -->    
+
+
+
+</body>
+</html>
