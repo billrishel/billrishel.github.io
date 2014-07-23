@@ -110,10 +110,16 @@ border-width: medium;
 border-color: white;
 }
 
-#right-col {
-background: #fff url(../images/bee3.gif) no-repeat 212px -4px;
+/*
 background-color: #d8f3ff;
+background: #fff url(../images/toned.jpg) repeat-y;
+
+*/
+
+#right-col {
 background-color: #e3f6ff;
+background-color: beige;
+
 height: 73%;
 float: left;
 margin-left: 40px;
@@ -123,7 +129,9 @@ top:0;
 right:0;
 border-style: solid;
 border-width: medium;
+
 border-color: #aae4ff;
+border-color: white;
 }
 
 
@@ -190,6 +198,12 @@ line-height: 150%;
 color: #0019c3;
 }
 
+#right-col h2, h3 {
+color: brown;
+color: #0019c3;
+font-size: 20px;
+}
+
 #right-col li a {
 font-family: Verdana, sans-serif;
 font-weight: 700;
@@ -216,6 +230,7 @@ text-align: left;
 }
 
 h1, h2, h3, h4 {
+color: brown;
 color: #0019c3;
 }
 
