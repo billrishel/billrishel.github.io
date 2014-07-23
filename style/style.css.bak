@@ -113,12 +113,12 @@ border-color: white;
 /*
 background-color: #d8f3ff;
 background: #fff url(../images/toned.jpg) repeat-y;
+background-color: beige;
 
 */
 
 #right-col {
 background-color: #e3f6ff;
-background-color: beige;
 
 height: 73%;
 float: left;
@@ -130,8 +130,9 @@ right:0;
 border-style: solid;
 border-width: medium;
 
-border-color: #aae4ff;
 border-color: white;
+border-color: #aae4ff;
+border-color: #d0f0ff;
 }
 
 
@@ -201,7 +202,7 @@ color: #0019c3;
 #right-col h2, h3 {
 color: brown;
 color: #0019c3;
-font-size: 15px;
+font-size: 20px;
 }
 
 #right-col li a {
