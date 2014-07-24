@@ -132,7 +132,7 @@ border-width: medium;
 
 border-color: white;
 border-color: #aae4ff;
-border-color: #d0f0ff;
+border-color: #cbeeff;
 }
 
 
@@ -184,6 +184,7 @@ border-color: white;
 
 #divider li a {
 font-weight: bold;
+margin-left: 0;
 }
 
 #divider h3 {

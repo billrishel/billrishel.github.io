@@ -184,6 +184,7 @@ border-color: white;
 
 #divider li a {
 font-weight: bold;
+margin-left: -10px;
 }
 
 #divider h3 {
