@@ -31,6 +31,7 @@ padding: 0;
 
 li a {
 color: blue;
+color: #0e1158;
 font-size: 14px;
 }
 
@@ -86,6 +87,7 @@ border-color: white;
 
 #main-col {
 color: #010890;
+color: black;
 float: left;
 width: 500px;
 bottom: 0;
@@ -182,9 +184,15 @@ border-color: white;
 
 /******************** FONTS *************************/
 
+#wrap * p {
+color: black;
+}
+
 #divider li a {
 font-weight: bold;
-margin-left: 0;
+margin-left: -10px;
+color: #0e1158;
+color: #0019c3;
 }
 
 #divider h3 {
@@ -198,11 +206,12 @@ line-height: 150%;
 
 #right-col * {
 color: #0019c3;
+color: #0e1158;
 }
 
 #right-col h2, h3 {
-color: brown;
 color: #0019c3;
+color: #2a2e6b;
 font-size: 20px;
 }
 
@@ -233,7 +242,8 @@ text-align: left;
 
 h1, h2, h3, h4 {
 color: brown;
-color: #0019c3;
+color: #0e1158;
+color: #021596;
 }
 
 h1 {
