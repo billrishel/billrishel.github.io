@@ -190,9 +190,10 @@ color: black;
 
 #divider li a {
 font-weight: bold;
-margin-left: -10px;
+margin-left: -15px;
 color: #0e1158;
 color: #0019c3;
+color: #021596;
 }
 
 #divider h3 {
